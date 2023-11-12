@@ -10,7 +10,7 @@ service FileService {
 
 // The request message containing the file's byte data.
 message UploadRequest {
-  bytes file = 1;
+  string file = 1;
   string filename = 2;
 }
 
