@@ -16,6 +16,7 @@ message UploadRequest {
   string file = 1;
   string filename = 2;
   string userId = 3; // Added field for user ID
+  string email = 4; // Added field for user email
 }
 
 // The response message containing the upload status.
